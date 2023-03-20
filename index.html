@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Email Subscribe</title>
+    </head>
+    <body>
+        <!-- Background Container -->
+        <div class="flex justify-center items-center h-screen bg-zinc-700">
+            <!-- Card -->
+            <div class="mx-6 p-2 rounded-2xl bg-zinc-800">
+                <!-- Flex Container -->
+                <div class="flex flex-col rounded-l-xl md:flex-row">
+                    <!-- Image -->
+                    <img
+                        src="images/image.jpg"
+                        alt="image-loading..."
+                        class="object-fit h-80 rounded-xl transform hover:scale-105 hover:rounded-xl duration-200 md:h-64 md:rounded-l-xl md:rounded-r-none"
+                    />
+                    <!-- Content -->
+                    <div class="p-6 md:p-12">
+                        <h2 class="font-serif text-lg font-medium text-center text-white md:text-left">Stay Ahead of Cyber Threats with Managed IT Security Services</h2>
+                        <p class="max-w-lg my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left">Improve your cybersecurity with our newsletter. Subscribe now for the latest trends and solutions</p>
+
+                        <div class="flex flex-col mt-5 space-y-4 md:flex-row md:space-y-0 md:space-x-3">
+                            <input
+                                type="text"
+                                placeholder="Enter your email address"
+                                class="p-2 px-4 text-center text-white bg-zinc-800 border border-zinc-600 placeholder:text-xs placeholder:text-center focus:outline-none md:text-left placeholder:md:text-left"
+                            />
+
+                            <button class="px-5 py-3 text-xs rounded-md text-zinc-800 bg-lime-500 hover:bg-lime-700 hover:text-white duration-500">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
